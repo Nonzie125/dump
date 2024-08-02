@@ -1,13 +1,11 @@
 import React from 'react';
 import './App.css';
 import UserGreetin from './User.greetin';
-// src/App.js
-import UserGreeting from "./simple-rendering-app/UserGreeting";
 
 function App() {
     return (
         <div>
-            <UserGreeting isLoggedIn={true} username="AmaliNjoki" />
+            <UserGreetin isLoggedIn={false} username="I love my Mom" />
         </div>
     );
 }
